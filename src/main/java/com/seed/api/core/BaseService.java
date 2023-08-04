@@ -48,6 +48,11 @@ public class BaseService extends AbstractVerticle {
     protected static final int SUCCESS_CODE = 200;
 
     /**
+     * Bad Client Request.
+     */
+    protected static final int ERR_BAD_REQUEST = 400;
+
+    /**
      * The constructor.
      */
     public BaseService() {
